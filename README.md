@@ -34,7 +34,6 @@ npm install
 ````
 #### Open http://127.0.0.1:5173/ with your favorite browser to see your project.
 
-## Happy Hacking!
 
 ## Contributions
 Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
