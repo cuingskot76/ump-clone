@@ -1,6 +1,8 @@
 # React-Tailwind Boilerplate
 This is a React.js + Vite boilerplate starter code for your portfolio or application. 
 
+[Live Site](https://react-tailwind-boilerplate-zeta.vercel.app/)
+
 
 ## What is inside?<br>
 - [Vite](https://vitejs.dev/)
