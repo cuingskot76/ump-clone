@@ -16,22 +16,19 @@ So I'm trying to create a repo to help me and others learn React, to focus more 
 ## How to use
 Make sure your system has been installed [Git](https://git-scm.com/) and [Nodejs](https://nodejs.org/en/)
 
-#### Clone this repository
+##### Clone this repository
 ````bash
  git clone https://github.com/cuingskot76/react-tailwind-boilerplate.git
 ````
-
+#### Go into the repository
 ````bash
-# Go into the repository
-$ cd react-tailwind-boilerplate
+ cd react-tailwind-boilerplate
 ````
-
+##### Install dependencies
 ````bash
-# Install dependencies
-$ npm install
+npm install
 ````
-
+##### Run the app
 ````bash
-# Run the app
-$ npm start
+ npm start
 ````
