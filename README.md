@@ -16,7 +16,7 @@ So I'm trying to create a repo to help me and others learn React, to focus more 
 ## How to use
 Make sure your system has been installed [Git](https://git-scm.com/) and [Nodejs](https://nodejs.org/en/)
 
-##### Clone this repository
+#### Clone this repository
 ````bash
  git clone https://github.com/cuingskot76/react-tailwind-boilerplate.git
 ````
@@ -24,11 +24,13 @@ Make sure your system has been installed [Git](https://git-scm.com/) and [Nodejs
 ````bash
  cd react-tailwind-boilerplate
 ````
-##### Install dependencies
+#### Install dependencies
 ````bash
 npm install
 ````
-##### Run the app
+#### Run the app
 ````bash
  npm start
 ````
+## Contributions
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
