@@ -9,3 +9,26 @@ So I'm trying to create a repo to help me and others learn React, to focus more 
 - Vite
 - React Router DOM
 - Axios
+
+## How to use
+Make sure your system has been installed [Git](https://git-scm.com/) and [Nodejs](https://nodejs.org/en/)
+
+````bash
+# Clone this repository
+$ git clone https://github.com/cuingskot76/react-tailwind-boilerplate.git
+````
+
+````bash
+# Go into the repository
+$ cd react-tailwind-boilerplate
+````
+
+````bash
+# Install dependencies
+$ npm install
+````
+
+````bash
+# Run the app
+$ npm start
+````
