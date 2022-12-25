@@ -6,5 +6,6 @@ as a newbie in React, I create a lot of new files while learning about it. when 
 So I'm trying to create a repo to help me and others learn React, to focus more on developing instead of installing.
 
 ## What is inside?<br>
-Vite
-React router dom
+-     Vite <br/>
+-     React Router DOM <br/>
+-     Axios
