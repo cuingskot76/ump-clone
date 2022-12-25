@@ -7,4 +7,5 @@ So I'm trying to create a repo to help me and others learn React, to focus more 
 
 ## What is inside?<br>
 - Vite
-- React router dom
+- React Router DOM
+- Axios
