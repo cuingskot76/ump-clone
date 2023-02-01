@@ -50,7 +50,7 @@ const Header = () => {
                 </svg>
               </MenuItem>
             </MenuHandler>
-            <MenuList className="flex flex-col gap-1 py-3">
+            <MenuList className="flex flex-col gap-1 py-3 z-50 ">
               <MenuItem className="hover:bg-blue-200 py-2 ">
                 Profile Universitas
               </MenuItem>
@@ -95,7 +95,7 @@ const Header = () => {
                 </svg>
               </MenuItem>
             </MenuHandler>
-            <MenuList>
+            <MenuList className="z-50">
               {/* fakultas keguruan */}
               <Menu placement="right-start" offset={15}>
                 <MenuHandler>
@@ -380,7 +380,7 @@ const Header = () => {
                 </svg>
               </MenuItem>
             </MenuHandler>
-            <MenuList className="flex flex-col gap-1 py-3">
+            <MenuList className="flex flex-col gap-1 py-3 z-50">
               <MenuItem className="hover:bg-blue-200 py-2 ">
                 Ma`had Al Imam Malik
               </MenuItem>
@@ -451,7 +451,7 @@ const Header = () => {
                 </svg>
               </MenuItem>
             </MenuHandler>
-            <MenuList className="flex flex-col gap-1 py-3">
+            <MenuList className="flex flex-col gap-1 py-3 z-50">
               <MenuItem className="hover:bg-blue-200 py-2 ">
                 Biro Aset dan Inventaris
               </MenuItem>
