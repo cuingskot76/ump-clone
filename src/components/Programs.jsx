@@ -12,12 +12,12 @@ const Programs = () => {
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <span className="relative">UMP</span>
-            </span>{" "}
+            </span>
             Sebagai kampus yang menuju
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <div className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               {/* The quick, brown fox */}
               <br className="hidden md:block" />
-              {/* jumps over{" "} */}
+              {/* jumps over */}
               <span className="relative px-1">
                 <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-blue-300" />
                 <span className="relative inline-block text-gray-600">
@@ -25,7 +25,7 @@ const Programs = () => {
                   word class university
                 </span>
               </span>
-            </h2>
+            </div>
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
@@ -105,8 +105,9 @@ const Programs = () => {
                   </h6>
                 </div>
                 <p className="mb-2 text-sm text-gray-900">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Veritatis, cupiditate? Sapiente iste fugiat nostrum eaque.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  dicta laborum, praesentium alias quisquam, quaerat atque
+                  consectetur omnis, ut corporis adipisci laboriosam cupiditate.
                 </p>
                 <a
                   href="/"

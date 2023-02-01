@@ -11,12 +11,12 @@ const Hero = () => {
   return (
     <div>
       {checkWidth ? (
-        <header class="relative">
+        <header className="relative">
           <video
             autoPlay
             loop
             muted
-            class="absolute top-[-12rem] z-[-1] w-auto min-w-full min-h-full "
+            className="absolute top-[-12rem] z-[-1] w-auto min-w-full min-h-full "
           >
             <source src="../../assets/video/campus-tour.mp4" type="video/mp4" />
             Your browser does not support the video tag.
