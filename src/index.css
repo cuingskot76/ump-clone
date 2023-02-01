@@ -36,3 +36,19 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.videoContainer {
+  height: 80vh;
+  max-height: 80vh;
+  position: relative;
+}
+
+.video {
+  display: block;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  object-fit: cover;
+  object-position: center;
+}

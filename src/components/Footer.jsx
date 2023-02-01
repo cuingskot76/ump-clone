@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer aria-label="Site Footer" className="bg-white">
+    <footer aria-label="Site Footer">
       <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:text-lg">
           <div>
             <div className="w-[13rem]">
               <img src="../../assets/logo/ump-logo.png" alt="ump-logo" />
@@ -15,7 +15,7 @@ const Footer = () => {
               cupiditate quae nam molestias.
             </p>
 
-            <ul className="flex gap-6 mt-8">
+            <ul className="flex gap-6 mt-8 ">
               <li>
                 <a
                   href="/"
@@ -134,12 +134,12 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 ">
             <div>
-              <p className="font-medium text-gray-900">Services</p>
+              <p className="font-medium text-gray-900 md:text-xl">Services</p>
 
               <nav aria-label="Footer Navigation - Services" className="mt-6">
-                <ul className="space-y-4 text-sm">
+                <ul className="space-y-4 text-sm md:text-lg">
                   <li>
                     <a
                       href="#"
@@ -189,10 +189,10 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-gray-900">Company</p>
+              <p className="font-medium text-gray-900 md:text-xl">Company</p>
 
               <nav aria-label="Footer Navigation - Company" className="mt-6">
-                <ul className="space-y-4 text-sm">
+                <ul className="space-y-4 text-sm md:text-lg">
                   <li>
                     <a
                       href="#"
@@ -224,10 +224,12 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-gray-900">Helpful Links</p>
+              <p className="font-medium text-gray-900 md:text-xl">
+                Helpful Links
+              </p>
 
               <nav aria-label="Footer Navigation - Company" className="mt-6">
-                <ul className="space-y-4 text-sm">
+                <ul className="space-y-4 text-sm md:text-lg">
                   <li>
                     <a
                       href="#"
@@ -259,10 +261,10 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-gray-900">Legal</p>
+              <p className="font-medium text-gray-900 md:text-xl">Legal</p>
 
               <nav aria-label="Footer Navigation - Legal" className="mt-6">
-                <ul className="space-y-4 text-sm">
+                <ul className="space-y-4 text-sm md:text-lg">
                   <li>
                     <a
                       href="#"

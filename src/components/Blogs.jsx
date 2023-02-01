@@ -8,7 +8,7 @@ const Blogs = () => {
           <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">
             Blogs & Articles
           </h2>
-          <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
+          <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300 text-md md:text-xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
             modi cum deserunt tempore sint porro voluptatum necessitatibus
             dignissimos sequi rem debitis, illo, reprehenderit asperiores amet!
@@ -28,7 +28,7 @@ const Blogs = () => {
               Vitae aliquet porta semper enim inceptos elit magnis lacus non
               nisl faucibus
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">
+            <p className="text-gray-600 dark:text-gray-300 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               vero quaerat explicabo totam, error aperiam deleniti optio
               eligendi iste, eaque temporibus provident iure assumenda rerum?

@@ -1,35 +1,24 @@
 import React, { useEffect, useState } from "react";
 const Hero = () => {
-  const [checkWidth, setCheckWidth] = useState(false);
+  const [checkWidth, setCheckWidth] = useState(true);
 
   useEffect(() => {
     window.addEventListener("resize", () =>
       window.innerWidth >= 768 ? setCheckWidth(true) : setCheckWidth(false)
     );
-  }, []);
-
+  }, [checkWidth]);
+  console.log(checkWidth);
   return (
     <div>
       {checkWidth ? (
-        <header className="relative">
-          <video
-            autoPlay
-            loop
-            muted
-            className="absolute top-[-12rem] z-[-1] w-auto min-w-full min-h-full "
-          >
+        <header className="videoContainer">
+          <video autoPlay loop muted className="video">
             <source src="../../assets/video/campus-tour.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </header>
       ) : (
         <div className="h-[40rem] relative">
-          {/* <img className="w-full h-full object-cover bg-hero-img " /> */}
-          {/* <img
-          src="../../assets/hero-main/hero-main.webp"
-          alt="hero-img"
-          className="w-full h-full object-cover linear-image"
-        /> */}
           <img className="linear-image w-full h-full object-cover" />
           <div className="absolute w-full top-1/4 left-1/5 text-white flex justify-center items-center text-center flex-col px-3">
             <div className="w-[5rem]">

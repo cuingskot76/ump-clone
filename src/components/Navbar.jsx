@@ -10,7 +10,6 @@ import {
   MenuHandler,
   MenuList,
 } from "@material-tailwind/react";
-import { Dropdown } from "flowbite-react";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -27,7 +26,7 @@ const Header = () => {
       {/* profil */}
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-normal hover:text-blue-700"
       >
@@ -72,7 +71,7 @@ const Header = () => {
       {/* fakultas */}
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-normal hover:text-blue-700"
       >
@@ -357,7 +356,7 @@ const Header = () => {
       {/* lembaga dan upt */}
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-normal hover:text-blue-700"
       >
@@ -428,7 +427,7 @@ const Header = () => {
       {/* biro ump */}
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-normal hover:text-blue-700"
       >
@@ -496,7 +495,7 @@ const Header = () => {
       {/* publikasi */}
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-normal hover:text-blue-700"
       >
