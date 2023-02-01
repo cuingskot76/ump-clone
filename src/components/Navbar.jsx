@@ -512,10 +512,10 @@ const Header = () => {
   );
 
   return (
-    <Navbar className="mx-auto overflow-hidden max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className="z-10 relative navbar overflow-hidden max-w-full py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <img
-          src="../../assets/ump-logo.png"
+          src="../../assets/logo/ump-logo.png"
           alt="ump-logo"
           className="w-[13rem]"
         />
