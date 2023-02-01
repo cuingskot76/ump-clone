@@ -334,7 +334,7 @@ const Footer = () => {
             </svg>
             by
             <span className="ml-1 text-blue-500 font-semibold">
-              <a href="#https://github.com/cuingskot76"> afrizal</a>
+              <a href="https://github.com/cuingskot76"> afrizal</a>
             </span>
           </p>
           &copy; 2023. All rights reserved.

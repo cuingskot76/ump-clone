@@ -22,7 +22,7 @@ const Hero = () => {
           <img className="linear-image w-full h-full object-cover" />
           <div className="absolute w-full top-1/4 left-1/5 text-white flex justify-center items-center text-center flex-col px-3">
             <div className="w-[5rem]">
-              <img src="../../assets/logo/Logo UMP.png" alt="ump-logo" />
+              <img src="../../assets/logo/Logo UMP.webp" alt="ump-logo" />
             </div>
             <h1 className="text-3xl sm:text-4xl my-3 text-[#bac0ce] font-[Inter]">
               Universitas Muhammadiyah Purwokerto
